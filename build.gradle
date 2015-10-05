@@ -1,0 +1,46 @@
+buildscript {
+  repositories {
+    jcenter()
+  }
+}
+
+apply plugin 'java'
+apply plugin 'war'
+apply plugin 'idea'
+apply plugin 'eclipse'
+
+jar {
+  baseName = 'clusterpi'
+  version = '0.0.1'
+}
+
+repositories {
+  mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile (
+            'org.springframework:spring-webmvc:4.1.5.RELEASE',
+            'org.slf4j:slf4j-api:1.7.10'
+    )
+    providedCompile(
+            'javax.servlet:javax.servlet-api:3.1.0',
+    )
+    runtime(
+            'log4j:log4j:1.2.17',
+            'org.slf4j:jcl-over-slf4j:1.7.10',
+            'org.slf4j:slf4j-log4j12:1.7.10'
+    )
+    testCompile(
+            'junit:junit:4.12',
+            'org.springframework:spring-test:4.1.5.RELEASE'
+    )
+}
+
+task wrapper(type: Wrapper){
+  gradleVersion = '2.3'
+}
+
