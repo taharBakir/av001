@@ -34,7 +34,7 @@ public class Product {
       return this ;
     }
 
-    public Builder isAvailabable(boolean available){
+    public Builder isAvailable(boolean available){
       this.available = available ;
       return this;
     }

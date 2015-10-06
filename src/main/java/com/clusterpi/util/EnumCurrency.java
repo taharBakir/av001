@@ -2,10 +2,10 @@ package com.clusterpi.util;
 
 public enum EnumCurrency{
   EUR("EUR","euro","€","&euro;");
-  private String code;
-  private String name;
-  private String sign;
-  private String htmlCode;
+  private final String code;
+  private final String name;
+  private final String sign;
+  private final String htmlCode;
 
   private EnumCurrency(String code, String name, String sign, String htmlCode){
     this.code = code ;
@@ -14,19 +14,19 @@ public enum EnumCurrency{
     this.htmlCode = htmlCode;
   }
 
-  public getCode (){
+  public String getCode (){
     return this.code;
   }
 
-  public getName (){
+  public String getName (){
     return this.name;
   }
 
-  public getSign (){
+  public String getSign (){
     return this.sign;
   }
 
-  public getHtmlCode (){
+  public String getHtmlCode (){
     return this.htmlCode;
   }
 }

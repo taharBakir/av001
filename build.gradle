@@ -4,10 +4,10 @@ buildscript {
   }
 }
 
-apply plugin 'java'
-apply plugin 'war'
-apply plugin 'idea'
-apply plugin 'eclipse'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
 
 jar {
   baseName = 'clusterpi'
@@ -16,6 +16,7 @@ jar {
 
 repositories {
   mavenCentral()
+  mavenLocal()
 }
 
 sourceCompatibility = 1.8
@@ -23,20 +24,24 @@ targetCompatibility = 1.8
 
 dependencies {
     compile (
-            'org.springframework:spring-webmvc:4.1.5.RELEASE',
-            'org.slf4j:slf4j-api:1.7.10'
+            'org.springframework:spring-context:4.2.1.RELEASE',
+            'org.springframework:spring-webmvc:4.2.1.RELEASE',
+            'org.springframework:spring-beans:4.2.1.RELEASE',
+            'org.slf4j:slf4j-api:1.7.10',
+            'com.fasterxml.jackson.core:jackson-core:2.6.2',
+            'com.fasterxml.jackson.core:jackson-databind:2.6.2'
     )
     providedCompile(
             'javax.servlet:javax.servlet-api:3.1.0',
     )
     runtime(
             'log4j:log4j:1.2.17',
-            'org.slf4j:jcl-over-slf4j:1.7.10',
-            'org.slf4j:slf4j-log4j12:1.7.10'
+            'org.slf4j:jcl-over-slf4j:1.7.12',
+            'org.slf4j:slf4j-log4j12:1.7.12'
     )
     testCompile(
             'junit:junit:4.12',
-            'org.springframework:spring-test:4.1.5.RELEASE'
+            'org.springframework:spring-test:4.2.1.RELEASE'
     )
 }
 
