@@ -1,4 +1,4 @@
-package com.clusterpi.controller;
+package com.clusterpi.web;
 
 import com.clusterpi.model.Category;
 import com.clusterpi.model.Product;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class HomeController {
 
     @RequestMapping(value = "/GetProduct", method = RequestMethod.GET)
     public Product getProduct(@RequestParam(value = "idProduct", defaultValue = "1") Long idProduct) {

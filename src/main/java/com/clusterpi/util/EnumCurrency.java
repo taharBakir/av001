@@ -1,7 +1,10 @@
 package com.clusterpi.util;
 
 public enum EnumCurrency{
-  EUR("EUR","euro","€","&euro;");
+  EUR("EUR","euro","€","&euro;"),
+  USD("USD","dollar","$","$"),
+  POUND("GBP","pound","£","&pound;");
+
   private final String code;
   private final String name;
   private final String sign;
