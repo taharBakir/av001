@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Cart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/LineItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Payment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Shipping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/User.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/clusterpi/controller/HelloController.java" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/controller/HelloController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="av001.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444241882637" ignored="false" />
     <file path="/Category.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444246594051" ignored="false" />
-    <file path="/Product.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444245034405" ignored="false" />
+    <file path="/Product.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444264613702" ignored="false" />
     <file path="/fragment.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444245273517" ignored="false" />
     <file path="/HelloController.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444247250158" ignored="false" />
+    <file path="/User.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444264555873" ignored="false" />
+    <file path="/Address.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444260837243" ignored="false" />
+    <file path="/Lineitem.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444263410617" ignored="false" />
+    <file path="/Order.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444265199873" ignored="false" />
+    <file path="/Cart.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444262215771" ignored="false" />
+    <file path="/LineItem.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444263411009" ignored="false" />
+    <file path="/Paiement.java" changelist="2af0f8c5-9a7f-4414-96ea-74e4f4b12c64" time="1444262777422" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +91,7 @@
       <file leaf-file-name="HelloController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="21" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
+            <state line="28" column="21" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +99,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="40" selection-start="670" selection-end="670" vertical-scroll-proportion="0.62171626">
+            <state line="2" column="39" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="55" selection-start="57" selection-end="93" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="31" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineItem.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/LineItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="178" selection-end="178" vertical-scroll-proportion="0.14623955">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Payment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Payment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="5" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shipping.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Shipping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,10 +313,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="/opt/jdk1.8.0/src.zip!/java/util/Date.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Lineitem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Paiement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Payment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Shipping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/LineItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/clusterpi/model/Order.java" />
       </list>
     </option>
   </component>
@@ -247,10 +334,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="27" />
+    <option name="x" value="1919" />
     <option name="width" value="1922" />
-    <option name="height" value="1054" />
+    <option name="height" value="1201" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -602,7 +688,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <frame x="1919" y="0" width="1922" height="1201" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -615,9 +701,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6707727" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2826923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6707727" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6707727" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.7173077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6707727" order="1" side_tool="false" content_ui="tabs" />
@@ -706,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="22" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
@@ -720,18 +799,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="40" selection-start="670" selection-end="670" vertical-scroll-proportion="0.49442896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="44" selection-start="5225" selection-end="5225" vertical-scroll-proportion="0.35654595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="21" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
+        <state line="28" column="21" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="40" selection-start="670" selection-end="670" vertical-scroll-proportion="0.62171626">
+        <state line="2" column="39" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="55" selection-start="57" selection-end="93" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Shipping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clusterpi/model/LineItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="178" selection-end="178" vertical-scroll-proportion="0.14623955">
           <folding />
         </state>
       </provider>

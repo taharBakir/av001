@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @RequestMapping(value="/GetProduct",method=RequestMethod.GET)
-    public Product getProduct(@RequestParam(value="idProduct", defaultValue="1") Long idProduct) {
+    @RequestMapping(value = "/GetProduct", method = RequestMethod.GET)
+    public Product getProduct(@RequestParam(value = "idProduct", defaultValue = "1") Long idProduct) {
 
         Category topCaterory = new Category.Builder(1)
                 .withName("Top caterory")
@@ -63,8 +63,6 @@ public class HelloController {
     */
 
     }
-
-
 
 
 }
