@@ -27,9 +27,15 @@ dependencies {
             'org.springframework:spring-context:4.2.1.RELEASE',
             'org.springframework:spring-webmvc:4.2.1.RELEASE',
             'org.springframework:spring-beans:4.2.1.RELEASE',
-            'org.slf4j:slf4j-api:1.7.10',
+            'org.slf4j:slf4j-api:1.7.12',
             'com.fasterxml.jackson.core:jackson-core:2.6.2',
-            'com.fasterxml.jackson.core:jackson-databind:2.6.2'
+            'com.fasterxml.jackson.core:jackson-databind:2.6.2',
+            'com.h2database:h2:1.4.189',
+            'org.hibernate:hibernate-entitymanager:5.0.2.Final',
+            'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final',
+            'org.springframework:spring-orm:4.2.1.RELEASE',
+            'org.springframework:spring-jdbc:4.2.1.RELEASE',
+            'org.apache.tomcat:tomcat-jdbc:8.0.27'
     )
     providedCompile(
             'javax.servlet:javax.servlet-api:3.1.0',
@@ -46,6 +52,6 @@ dependencies {
 }
 
 task wrapper(type: Wrapper){
-  gradleVersion = '2.3'
+  gradleVersion = '2.7'
 }
 

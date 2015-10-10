@@ -1,19 +1,17 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 
 import java.util.HashMap;
 
-import com.clusterpi.model.Address;
-
-public class User {
+public class UserDto {
     private final long id;
     private final String name;
-    private final HashMap<Long, Address> addresses;
+    private final HashMap<Long, AddressDto> addresses;
 
-    private User(Builder builder) {
+    private UserDto(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
-        this.addresses = new HashMap<Long, Address>(builder.addresses);
+        this.addresses = new HashMap<Long, AddressDto>(builder.addresses);
     }
 
     public long getId() {
@@ -27,7 +25,7 @@ public class User {
     public static class Builder {
         private final long id;
         private String name;
-        private HashMap<Long, Address> addresses;
+        private HashMap<Long, AddressDto> addresses;
 
         public Builder(long id) {
             this.id = id;
@@ -38,13 +36,13 @@ public class User {
             return this;
         }
 
-        public Builder withAddresses(HashMap<Long, Address> addresses) {
-            this.addresses = new HashMap<Long, Address>(addresses);
+        public Builder withAddresses(HashMap<Long, AddressDto> addresses) {
+            this.addresses = new HashMap<Long, AddressDto>(addresses);
             return this;
         }
 
-        public User build() {
-            return new User(this);
+        public UserDto build() {
+            return new UserDto(this);
         }
     }
 

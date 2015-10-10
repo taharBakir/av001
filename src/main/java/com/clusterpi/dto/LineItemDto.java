@@ -1,13 +1,13 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 import java.math.BigDecimal;
 
-public class LineItem {
+public class LineItemDto {
     private final long id;
     private final BigDecimal price;
     private final int quantity;
 
-    private LineItem(Builder builder) {
+    private LineItemDto(Builder builder) {
         this.id = builder.id;
         this.price = builder.price;
         this.quantity = builder.quantity;
@@ -40,8 +40,8 @@ public class LineItem {
             return this;
         }
 
-        public LineItem build() {
-            return new LineItem(this);
+        public LineItemDto build() {
+            return new LineItemDto(this);
         }
     }
 

@@ -1,5 +1,8 @@
 package com.clusterpi.serviceImpl;
 
 
-public class ProductService {
+import com.clusterpi.serviceApi.IProductService;
+
+public class ProductService implements IProductService {
+
 }

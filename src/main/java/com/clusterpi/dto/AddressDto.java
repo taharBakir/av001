@@ -1,11 +1,11 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 
-public class Address {
+public class AddressDto {
     private final long id;
     private final String name;
 
-    private Address(Builder builder) {
+    private AddressDto(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
     }
@@ -31,8 +31,8 @@ public class Address {
             return this;
         }
 
-        public Address build() {
-            return new Address(this);
+        public AddressDto build() {
+            return new AddressDto(this);
         }
     }
 

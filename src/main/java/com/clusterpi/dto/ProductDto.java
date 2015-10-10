@@ -1,9 +1,8 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 import com.clusterpi.util.EnumCurrency;
-import com.clusterpi.model.Category;
 
-public class Product {
+public class ProductDto {
     private final long id;
     private final String name;
     private final String description;
@@ -11,9 +10,9 @@ public class Product {
     private final boolean online;
     private final double price;
     private final EnumCurrency currency;
-    private final Category category;
+    private final CategoryDto category;
 
-    private Product(Builder builder) {
+    private ProductDto(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
         this.description = builder.description;
@@ -52,7 +51,7 @@ public class Product {
         return this.currency.toString();
     }
 
-    public Category getCategory() {
+    public CategoryDto getCategory() {
         return this.category;
     }
 
@@ -64,7 +63,7 @@ public class Product {
         private boolean online;
         private double price;
         private EnumCurrency currency;
-        private Category category;
+        private CategoryDto category;
 
         public Builder(long id) {
             this.id = id;
@@ -100,13 +99,13 @@ public class Product {
             return this;
         }
 
-        public Builder withCategory(Category category) {
+        public Builder withCategory(CategoryDto category) {
             this.category = category;
             return this;
         }
 
-        public Product build() {
-            return new Product(this);
+        public ProductDto build() {
+            return new ProductDto(this);
         }
     }
 }

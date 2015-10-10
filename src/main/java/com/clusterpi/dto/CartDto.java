@@ -1,13 +1,13 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 
 import java.time.Instant;
 
-public class Cart {
+public class CartDto {
     private final long id;
     private final Instant date;
 
-    private Cart(Builder builder) {
+    private CartDto(Builder builder) {
         this.id = builder.id;
         this.date = builder.date;
     }
@@ -33,8 +33,8 @@ public class Cart {
             return this;
         }
 
-        public Cart build() {
-            return new Cart(this);
+        public CartDto build() {
+            return new CartDto(this);
         }
     }
 

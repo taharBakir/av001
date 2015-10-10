@@ -1,17 +1,17 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 
-public class Category {
+public class CategoryDto {
     private final long id;
     private final String name;
     private String description;
-    private Category parentCategory;
+    private CategoryDto parentCategory;
 
     public static class Builder {
         private final long id;
         private String name;
         private String description;
-        private Category parentCategory;
+        private CategoryDto parentCategory;
 
 
         public Builder(long id){
@@ -29,18 +29,18 @@ public class Category {
         }
 
 
-        public Builder withParentCategory(Category category){
+        public Builder withParentCategory(CategoryDto category){
             this.parentCategory = category ;
             return this ;
         }
 
-        public Category build(){
-            return new Category(this);
+        public CategoryDto build(){
+            return new CategoryDto(this);
         }
 
     }
 
-    private Category(Builder builder){
+    private CategoryDto(Builder builder){
         this.id = builder.id ;
         this.name = builder.name ;
         this.description = builder.description ;
@@ -59,7 +59,7 @@ public class Category {
         return this.description ;
     }
 
-    public Category getParentCategory() {
+    public CategoryDto getParentCategory() {
         return this.parentCategory;
     }
 

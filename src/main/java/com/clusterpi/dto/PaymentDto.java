@@ -1,10 +1,10 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 
-public class Payment {
+public class PaymentDto {
     private final long id;
 
-    private Payment(Builder builder) {
+    private PaymentDto(Builder builder) {
         this.id = builder.id;
     }
 
@@ -19,8 +19,8 @@ public class Payment {
             this.id = id;
         }
 
-        public Payment build() {
-            return new Payment(this);
+        public PaymentDto build() {
+            return new PaymentDto(this);
         }
     }
 

@@ -1,10 +1,10 @@
-package com.clusterpi.model;
+package com.clusterpi.dto;
 
 
-public class Shipping {
+public class ShippingDto {
     private final long id;
 
-    private Shipping(Builder builder) {
+    private ShippingDto(Builder builder) {
         this.id = builder.id;
     }
 
@@ -19,8 +19,8 @@ public class Shipping {
             this.id = id;
         }
 
-        public Shipping build() {
-            return new Shipping(this);
+        public ShippingDto build() {
+            return new ShippingDto(this);
         }
     }
 }
