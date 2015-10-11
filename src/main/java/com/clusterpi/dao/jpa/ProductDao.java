@@ -16,12 +16,10 @@ public class ProductDao {
     private EntityManager entityManager;
 
     public Product findProductById(long id) {
-        //logger.debug("findCompteById(id:{})", id);
         Product c = null;
         try {
             return entityManager.createNamedQuery("findProductById", Product.class).setParameter("id", id).getSingleResult();
         } catch (NoResultException nre) {
-            //logger.debug("findCompteById(id:{}) : Compte not found.", id);
         }
         return c;
     }
