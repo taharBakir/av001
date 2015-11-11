@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "av001",
+    "packageName": "com.av001",
+    "packageFolder": "com/av001",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "f863bb22adc92d886d902786c4e545808cf37609",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
