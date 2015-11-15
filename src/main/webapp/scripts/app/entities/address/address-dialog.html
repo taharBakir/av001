@@ -1,0 +1,62 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myAddressLabel" translate="av001App.address.home.createOrEditLabel">Create or edit a Address</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="address.id" readonly />
+        </div>
+        <div class="form-group">
+            <label translate="av001App.address.address1" for="field_address1">Address1</label>
+            <input type="text" class="form-control" name="address1" id="field_address1"
+                    ng-model="address.address1"
+                     />
+        </div>
+        <div class="form-group">
+            <label translate="av001App.address.address2" for="field_address2">Address2</label>
+            <input type="text" class="form-control" name="address2" id="field_address2"
+                    ng-model="address.address2"
+                     />
+        </div>
+        <div class="form-group">
+            <label translate="av001App.address.ville" for="field_ville">Ville</label>
+            <input type="text" class="form-control" name="ville" id="field_ville"
+                    ng-model="address.ville"
+                     />
+        </div>
+        <div class="form-group">
+            <label translate="av001App.address.codePostal" for="field_codePostal">CodePostal</label>
+            <input type="text" class="form-control" name="codePostal" id="field_codePostal"
+                    ng-model="address.codePostal"
+                     />
+        </div>
+        <div class="form-group">
+            <label translate="av001App.address.pays" for="field_pays">Pays</label>
+            <input type="text" class="form-control" name="pays" id="field_pays"
+                    ng-model="address.pays"
+                     />
+        </div>
+
+        <div class="form-group">
+            <label translate="av001App.address.client" for="field_client">client</label>
+            <select class="form-control" id="field_client" name="client" ng-model="address.client" ng-options="client as client.id for client in clients track by client.id">
+                <option value=""></option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || editForm.$submitted" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

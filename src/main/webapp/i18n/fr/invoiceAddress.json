@@ -1,0 +1,24 @@
+{
+    "av001App": {
+        "invoiceAddress" : {
+            "home": {
+                "title": "InvoiceAddresss",
+                "createLabel": "Créer un nouveau InvoiceAddress",
+                "createOrEditLabel": "Créer ou éditer un InvoiceAddress"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le InvoiceAddress {{ id }} ?"
+            },
+            "detail": {
+                "title": "InvoiceAddress"
+            },
+            "address1": "Address1",
+            "address2": "Address2",
+            "ville": "Ville",
+            "codePostal": "CodePostal",
+            "pays": "Pays",
+            "commande": "Commande"
+        }
+    }
+}
+

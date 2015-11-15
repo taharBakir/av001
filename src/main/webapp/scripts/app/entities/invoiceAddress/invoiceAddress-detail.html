@@ -1,0 +1,62 @@
+
+<div>
+    <h2><span translate="av001App.invoiceAddress.detail.title">InvoiceAddress</span> {{invoiceAddress.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="av001App.invoiceAddress.address1">Address1</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{invoiceAddress.address1}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="av001App.invoiceAddress.address2">Address2</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{invoiceAddress.address2}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="av001App.invoiceAddress.ville">Ville</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{invoiceAddress.ville}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="av001App.invoiceAddress.codePostal">CodePostal</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{invoiceAddress.codePostal}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="av001App.invoiceAddress.pays">Pays</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{invoiceAddress.pays}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

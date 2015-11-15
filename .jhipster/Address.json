@@ -1,0 +1,41 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "client",
+            "otherEntityName": "client",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "address1",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "address2",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "ville",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "codePostal",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "pays",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20151115033152",
+    "dto": "no",
+    "pagination": "no"
+}

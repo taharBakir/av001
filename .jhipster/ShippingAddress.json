@@ -1,0 +1,42 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "commande",
+            "otherEntityName": "commande",
+            "relationshipType": "one-to-one",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "shippingAddress"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "address1",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "address2",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "ville",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "codePostal",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "pays",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20151115033706",
+    "dto": "no",
+    "pagination": "no"
+}

@@ -1,0 +1,22 @@
+{
+    "av001App": {
+        "product" : {
+            "home": {
+                "title": "Products",
+                "createLabel": "Créer un nouveau Product",
+                "createOrEditLabel": "Créer ou éditer un Product"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Product {{ id }} ?"
+            },
+            "detail": {
+                "title": "Product"
+            },
+            "name": "Name",
+            "prixHT": "PrixHT",
+            "prixTTC": "PrixTTC",
+            "lineitem": "Lineitem"
+        }
+    }
+}
+

@@ -1,0 +1,31 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "lineitem",
+            "otherEntityName": "lineitem",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "product"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "prixHT",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "prixTTC",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20151115034140",
+    "dto": "no",
+    "pagination": "no"
+}

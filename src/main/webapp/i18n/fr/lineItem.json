@@ -1,0 +1,21 @@
+{
+    "av001App": {
+        "lineItem" : {
+            "home": {
+                "title": "LineItems",
+                "createLabel": "Créer un nouveau LineItem",
+                "createOrEditLabel": "Créer ou éditer un LineItem"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le LineItem {{ id }} ?"
+            },
+            "detail": {
+                "title": "LineItem"
+            },
+            "productName": "ProductName",
+            "commande": "Commande",
+            "product": "Product"
+        }
+    }
+}
+

@@ -1,0 +1,24 @@
+{
+    "av001App": {
+        "address" : {
+            "home": {
+                "title": "Addresss",
+                "createLabel": "Créer un nouveau Address",
+                "createOrEditLabel": "Créer ou éditer un Address"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Address {{ id }} ?"
+            },
+            "detail": {
+                "title": "Address"
+            },
+            "address1": "Address1",
+            "address2": "Address2",
+            "ville": "Ville",
+            "codePostal": "CodePostal",
+            "pays": "Pays",
+            "client": "Client"
+        }
+    }
+}
+

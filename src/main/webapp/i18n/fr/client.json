@@ -1,0 +1,23 @@
+{
+    "av001App": {
+        "client" : {
+            "home": {
+                "title": "Clients",
+                "createLabel": "Créer un nouveau Client",
+                "createOrEditLabel": "Créer ou éditer un Client"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Client {{ id }} ?"
+            },
+            "detail": {
+                "title": "Client"
+            },
+            "nom": "Nom",
+            "prenom": "Prenom",
+            "dateNaissance": "DateNaissance",
+            "commande": "Commande",
+            "address": "Address"
+        }
+    }
+}
+

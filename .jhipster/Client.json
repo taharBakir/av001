@@ -1,0 +1,38 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "commande",
+            "otherEntityName": "commande",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "client"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "address",
+            "otherEntityName": "address",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "client"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "prenom",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "dateNaissance",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20151115032243",
+    "dto": "no",
+    "pagination": "no"
+}

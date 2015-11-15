@@ -1,0 +1,23 @@
+{
+    "av001App": {
+        "commande" : {
+            "home": {
+                "title": "Commandes",
+                "createLabel": "Créer un nouveau Commande",
+                "createOrEditLabel": "Créer ou éditer un Commande"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Commande {{ id }} ?"
+            },
+            "detail": {
+                "title": "Commande"
+            },
+            "date": "Date",
+            "client": "Client",
+            "lineitem": "Lineitem",
+            "shippingAddress": "ShippingAddress",
+            "invoiceAddress": "InvoiceAddress"
+        }
+    }
+}
+

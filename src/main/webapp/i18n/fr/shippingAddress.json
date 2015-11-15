@@ -1,0 +1,24 @@
+{
+    "av001App": {
+        "shippingAddress" : {
+            "home": {
+                "title": "ShippingAddresss",
+                "createLabel": "Créer un nouveau ShippingAddress",
+                "createOrEditLabel": "Créer ou éditer un ShippingAddress"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le ShippingAddress {{ id }} ?"
+            },
+            "detail": {
+                "title": "ShippingAddress"
+            },
+            "address1": "Address1",
+            "address2": "Address2",
+            "ville": "Ville",
+            "codePostal": "CodePostal",
+            "pays": "Pays",
+            "commande": "Commande"
+        }
+    }
+}
+

@@ -6,6 +6,13 @@
             "home": "Accueil",
             "entities": {
                 "main": "Entités",
+                "commande": "Commande",
+                "client": "Client",
+                "lineItem": "LineItem",
+                "address": "Address",
+                "invoiceAddress": "InvoiceAddress",
+                "shippingAddress": "ShippingAddress",
+                "product": "Product",
                 "additionalEntity": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

@@ -1,0 +1,44 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "client",
+            "otherEntityName": "client",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "lineitem",
+            "otherEntityName": "lineitem",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "commande"
+        },
+        {
+            "relationshipId": 3,
+            "relationshipName": "shippingAddress",
+            "otherEntityName": "shippingAddress",
+            "relationshipType": "one-to-one",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "commande"
+        },
+        {
+            "relationshipId": 4,
+            "relationshipName": "invoiceAddress",
+            "otherEntityName": "invoiceAddress",
+            "relationshipType": "one-to-one",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "commande"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "date",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20151115005031",
+    "dto": "no",
+    "pagination": "pager"
+}
